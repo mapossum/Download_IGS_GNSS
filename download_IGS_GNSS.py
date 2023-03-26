@@ -31,9 +31,9 @@ class SessionWithHeaderRedirection(requests.Session):
                 del headers['Authorization']
         return
 
-# create session with the user credentials that will be used to authenticate access to the data
-username = "mapossum"
-password = "G30gr@phy"
+# create session with the user credentials that will be used to authenticate access to the data (put in actual values)
+username = ""
+password = ""
 
 session = SessionWithHeaderRedirection(username, password)
 
