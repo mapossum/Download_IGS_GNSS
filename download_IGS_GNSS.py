@@ -1,7 +1,7 @@
 Year = 2023
-jDay = 64
-StartHour = 22
-Duration = 5
+jDay = 64 #Julian Date (Start Date, GPS DAY)
+StartHour = 16 # (GPS Time)  This is 6am in Tahiti
+Duration = 12 # (hours to get from start time) This will go until 6pm in Tahiti
 Station = "FAA100PYF_R"  #TAHITI AIRPORT
 
 import requests # get the requsts library from https://github.com/requests/requests
